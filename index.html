@@ -1,19 +1,115 @@
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
-
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Presente em Canção</title>
+<title>Presente em Canção | Transformando histórias em emoções</title>
 
-<meta name="description"
-content="Transformamos histórias reais em músicas personalizadas emocionantes.">
+<meta name="description" content="Músicas personalizadas para homenagens, aniversários, casais, famílias e amigos. Transforme sua história em uma canção inesquecível.">
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<link rel="stylesheet" href="css/style.css">
+<style>
+
+:root{
+--vinho:#8B1E3F;
+--dourado:#D4A017;
+--claro:#FFF8F4;
+}
+
+body{
+font-family:Arial, sans-serif;
+}
+
+.hero{
+background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+url('https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=1600');
+background-size:cover;
+background-position:center;
+color:white;
+padding:120px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:3rem;
+font-weight:bold;
+}
+
+.btn-whats{
+background:#25D366;
+color:white;
+padding:15px 30px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+display:inline-block;
+}
+
+.btn-whats:hover{
+color:white;
+opacity:.9;
+}
+
+.section-title{
+color:var(--vinho);
+font-weight:bold;
+margin-bottom:30px;
+}
+
+.card-box{
+padding:25px;
+border-radius:15px;
+box-shadow:0 4px 15px rgba(0,0,0,.1);
+height:100%;
+}
+
+.creator{
+background:var(--claro);
+}
+
+.creator img{
+max-width:320px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.plan{
+border:2px solid #eee;
+border-radius:20px;
+padding:30px;
+height:100%;
+}
+
+.plan-premium{
+border:2px solid var(--dourado);
+}
+
+.price{
+font-size:2rem;
+font-weight:bold;
+color:var(--vinho);
+}
+
+footer{
+background:#111;
+color:white;
+padding:40px;
+}
+
+audio{
+width:100%;
+}
+
+video{
+width:100%;
+border-radius:15px;
+}
+
+</style>
 
 </head>
 
@@ -21,7 +117,7 @@ content="Transformamos histórias reais em músicas personalizadas emocionantes.
 
 <section class="hero">
 
-<div class="container text-center">
+<div class="container">
 
 <h1>🎵 Presente em Canção</h1>
 
@@ -30,12 +126,11 @@ Transformando histórias em emoções que podem ser ouvidas.
 </p>
 
 <p>
-Surpreenda quem você ama com uma música criada especialmente para ela.
+Surpreenda quem você ama com uma música criada especialmente a partir da história de vocês.
 </p>
 
-<a class="btn-whatsapp"
-href="https://wa.me/5531983307031">
-💬 Pedir Minha Música
+<a class="btn-whats" href="https://wa.me/5531983307031">
+💬 Solicitar Minha Música
 </a>
 
 </div>
@@ -44,37 +139,33 @@ href="https://wa.me/5531983307031">
 
 <section class="container py-5">
 
-<h2 class="section-title text-center">
-Como Funciona
+<h2 class="text-center section-title">
+Para Quem é?
 </h2>
 
 <div class="row g-4">
 
 <div class="col-md-3">
-<div class="card card-custom p-4 text-center">
-<h3>1️⃣</h3>
-<p>Você conta sua história</p>
+<div class="card-box text-center">
+❤️ Casais
 </div>
 </div>
 
 <div class="col-md-3">
-<div class="card card-custom p-4 text-center">
-<h3>2️⃣</h3>
-<p>Criamos a letra exclusiva</p>
+<div class="card-box text-center">
+🎂 Aniversários
 </div>
 </div>
 
 <div class="col-md-3">
-<div class="card card-custom p-4 text-center">
-<h3>3️⃣</h3>
-<p>Produzimos a música</p>
+<div class="card-box text-center">
+👨‍👩‍👧 Família
 </div>
 </div>
 
 <div class="col-md-3">
-<div class="card card-custom p-4 text-center">
-<h3>4️⃣</h3>
-<p>Você emociona quem ama</p>
+<div class="card-box text-center">
+🤝 Amigos
 </div>
 </div>
 
@@ -84,11 +175,51 @@ Como Funciona
 
 <section class="container py-5">
 
-<h2 class="section-title text-center">
+<h2 class="text-center section-title">
+Como Funciona
+</h2>
+
+<div class="row g-4">
+
+<div class="col-md-3">
+<div class="card-box text-center">
+1️⃣<br><br>
+Você conta sua história
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card-box text-center">
+2️⃣<br><br>
+Criamos a letra personalizada
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card-box text-center">
+3️⃣<br><br>
+Produzimos sua música
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card-box text-center">
+4️⃣<br><br>
+Você emociona quem ama
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section class="container py-5">
+
+<h2 class="text-center section-title">
 Vídeo de Demonstração
 </h2>
 
-<video controls width="100%">
+<video controls>
 <source src="videos/mae.mp4" type="video/mp4">
 </video>
 
@@ -96,43 +227,43 @@ Vídeo de Demonstração
 
 <section class="container py-5">
 
-<h2 class="section-title text-center">
+<h2 class="text-center section-title">
 Ouça Alguns Exemplos
 </h2>
 
 <div class="row g-4">
 
 <div class="col-md-6">
-<div class="card card-custom p-4">
+<div class="card-box">
 <h5>🤝 Inimigos do Fim</h5>
-<audio controls class="w-100">
+<audio controls>
 <source src="audio/inimigos-do-fim.mp3">
 </audio>
 </div>
 </div>
 
 <div class="col-md-6">
-<div class="card card-custom p-4">
+<div class="card-box">
 <h5>❤️ Só Você Me Faz</h5>
-<audio controls class="w-100">
+<audio controls>
 <source src="audio/so-voce-me-faz.mp3">
 </audio>
 </div>
 </div>
 
 <div class="col-md-6">
-<div class="card card-custom p-4">
+<div class="card-box">
 <h5>🔥 Perigo Gostoso</h5>
-<audio controls class="w-100">
+<audio controls>
 <source src="audio/perigo-gostoso.mp3">
 </audio>
 </div>
 </div>
 
 <div class="col-md-6">
-<div class="card card-custom p-4">
+<div class="card-box">
 <h5>🏆 Hoje Eu Vou Vencer</h5>
-<audio controls class="w-100">
+<audio controls>
 <source src="audio/hoje-eu-vou-vencer.mp3">
 </audio>
 </div>
@@ -155,7 +286,7 @@ Ouça Alguns Exemplos
 <div class="col-md-7">
 
 <h2 class="section-title">
-Quem Sou
+Quem cria as músicas?
 </h2>
 
 <p>
@@ -163,12 +294,16 @@ Olá, eu sou Daniel.
 </p>
 
 <p>
-Criei a Presente em Canção para transformar histórias reais em músicas emocionantes.
+Criei a Presente em Canção para transformar histórias reais em músicas emocionantes e inesquecíveis.
 </p>
 
 <p>
-Cada canção é criada com carinho para eternizar momentos especiais e criar lembranças que serão guardadas para sempre.
+Cada canção é produzida com carinho para que você tenha um presente único, capaz de emocionar e criar lembranças para toda a vida.
 </p>
+
+<a class="btn-whats" href="https://wa.me/5531983307031">
+Falar Comigo
+</a>
 
 </div>
 
@@ -180,68 +315,106 @@ Cada canção é criada com carinho para eternizar momentos especiais e criar le
 
 <section class="container py-5">
 
-<h2 class="section-title text-center">
+<h2 class="text-center section-title">
 Planos
 </h2>
 
 <div class="row g-4">
 
 <div class="col-md-4">
-<div class="card card-custom p-4 text-center">
+
+<div class="plan text-center">
+
 <h3>Essencial</h3>
-<div class="price">R$79</div>
+
+<div class="price">
+R$79
+</div>
+
 <p>Música personalizada</p>
+
+<p>Arquivo MP3</p>
+
 </div>
+
 </div>
 
 <div class="col-md-4">
-<div class="card card-custom p-4 text-center">
+
+<div class="plan plan-premium text-center">
+
 <h3>Premium ⭐</h3>
-<div class="price">R$149</div>
-<p>Música + vídeo com fotos</p>
+
+<div class="price">
+R$149
 </div>
+
+<p>Música personalizada</p>
+
+<p>Vídeo com fotos</p>
+
+<p>Formato para redes sociais</p>
+
+</div>
+
 </div>
 
 <div class="col-md-4">
-<div class="card card-custom p-4 text-center">
+
+<div class="plan text-center">
+
 <h3>VIP</h3>
-<div class="price">R$249</div>
-<p>Pacote completo</p>
+
+<div class="price">
+R$249
 </div>
+
+<p>Música personalizada</p>
+
+<p>Vídeo completo</p>
+
+<p>Entrega prioritária</p>
+
+</div>
+
 </div>
 
 </div>
 
 </section>
 
-<section class="text-center py-5">
+<section class="container py-5 text-center">
 
 <h2>
 Alguns presentes são esquecidos.
 </h2>
 
-<h3>
+<h3 class="mt-3">
 Uma canção personalizada fica para sempre. ❤️
 </h3>
 
 <br>
 
-<a class="btn-whatsapp"
-href="https://wa.me/5531983307031">
-Solicitar Minha Música
+<a class="btn-whats" href="https://wa.me/5531983307031">
+💬 Solicitar Minha Música
 </a>
 
 </section>
 
-<footer class="text-center p-5">
+<footer class="text-center">
 
-<h4>Presente em Canção</h4>
+<h4>🎵 Presente em Canção</h4>
 
 <p>
 Transformando histórias em emoções que podem ser ouvidas.
+</p>
+
+<p>
+WhatsApp: (31) 98330-7031
 </p>
 
 </footer>
 
 </body>
 </html>
+```
