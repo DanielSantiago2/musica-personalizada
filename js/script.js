@@ -1,10 +1,10 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function () {
 
     const reveals = document.querySelectorAll(".reveal");
 
     function revealElements() {
 
-        reveals.forEach(element => {
+        reveals.forEach(function(element) {
 
             const windowHeight = window.innerHeight;
             const elementTop = element.getBoundingClientRect().top;
